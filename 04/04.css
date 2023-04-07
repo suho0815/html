@@ -1,0 +1,39 @@
+header {
+    padding-top: 0px;
+}
+
+header > div {
+    top: 0px;
+    position: sticky;
+}
+
+.c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1 > div {
+    width: 30%;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.c1 > div > img {
+    border-radius: 40%;
+}
+
+.c1 > p {
+    width: 60%;
+}
+
+/* .c1_div {
+    margin-right: 30px;
+    width: 400px;
+}
+
+.c1_img {
+    
+    width: 100%;
+    border-radius: 40%;
+} */
