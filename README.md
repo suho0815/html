@@ -1,4 +1,4 @@
-https://suho0815.github.io/html/
+https://suho0815.github.io/html/index
 
 # K-digital 3기 FrontEnd 수업
 + 23.04.07 : CSS 연습2
