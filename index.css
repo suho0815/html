@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     display: flex;
     margin: 0px;
@@ -21,6 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #005E75;
+    
 }
 
 .main {
@@ -60,6 +65,13 @@ body {
 }
 .menu_index a {
     color: #E7E7E7;
+    transition: background-color, color 1s;
+    
+}
+
+.menu_index a:hover {
+    background-color: #E7E7E7;
+    color: #005E75;
 }
 
 #me li {
