@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-digital 3기 Js</title>
+</head>
+
+<body>
+    <!-- 사용자의 입력 값을 전달, get방식과 post방식이 있음 -->
+    <!-- get방식은 정보가 드러나기 때문에 조심 -->
+    <form action="a.jsp" method="get">
+
+        <!-- 드롭다운 select -->
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select> <br>
+
+        <label> 텍스트박스
+            <input type="text" name="txt1" required> <br>
+        </label>
+        <label for="emailid"> E-mail </label>
+        <input type="email" id="emailid" name="email" required> <br>
+
+        <fieldset>
+            <legend>좋아하는 언어</legend>
+            <!-- radio버튼에서 name속성이 같아야 하나만 선택됨 -->
+            <input type="radio" name="fav" value="python" id="pythonid">
+            <label for="pythonid">파이썬</label>
+            <!-- label비교 radio버튼에서 label은 글자를 클릭해도 선택됨 -->
+            <input type="radio" name="fav" value="R">R
+            <input type="radio" name="fav" value="Java">Java
+        </fieldset>
+
+        <!-- 버튼 submit은 결과 전달 -->
+        <input type="submit" value="확인">
+        <input type="reset" value="취소">
+
+        <input type="button" value="버튼">
+        <button onclick="alert('Hello World!')">버튼2</button>
+    </form>
+</body>
+
+</html>

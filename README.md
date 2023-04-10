@@ -1,7 +1,10 @@
 https://suho0815.github.io/html/
 
 # K-digital 3기 FrontEnd 수업
++ 23.04.10 : JavaScript 연습1
++ 23.04.10 : form 연습2
++ 23.04.10 : form 연습1
 + 23.04.07 : CSS 연습2
-+ 23.04.06 : CSS 연습
++ 23.04.06 : CSS 연습1
 + 23.04.05 : HTML 및 Git 연습
 + 23.04.04 : HTML 구조 연습

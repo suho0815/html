@@ -39,12 +39,13 @@ body {
 .main {
     padding: 0px;
     width: 60%;
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
 }
-
+/* 
 .art {
     scroll-snap-align: center;
-}
+} */
+
 .art img {
     width: 24px;
     height: 24px;
