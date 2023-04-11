@@ -29,8 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
     for(let [k, v] of bts.entries()) {
         console.log(k, v.textContent);
 
-        // document.createElement('li');
-        let ulid = document.querySelector('#ulId');
-        ulid.innerHTML = `<li>${k}, ${v.textContent}</li>`;
+        
+        // let ulid = document.querySelector('#ulId');
+        // ulid.innerHTML = `<li>${k}, ${v.textContent}</li>`;
+        const list = document.createElement('li');
+        list.textContent = `${k}, ${v.textContent}` ;
+        document.getElementById('ulId').appendChild(list);
+        // list.innerHTML(`${k}, ${v.textContent}`);
+        
     }
+    
 });
