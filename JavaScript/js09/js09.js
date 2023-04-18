@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", (e)=>{
         e.preventDefault();
         n = Math.floor(Math.random() * 9) + 1;
         console.log(n);
-
+        document.querySelector('article h1').textContent = '폭탄게임';
         for(let i = 0; i < 10 ; i++) {
             grid3[i].textContent = i+1;
         }
